@@ -18,6 +18,11 @@ public class CalculatorTest {
     }
 
     @Test
+    public void hasNumber2() {
+        assertEquals(10, testCalculator.getNumber2());
+    }
+
+    @Test
     public void addFunction() {
         assertEquals(60, testCalculator.add());
     }
